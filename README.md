@@ -2,6 +2,7 @@
 Con una página de inicio, un panel de usuario, un sistema de pagos y más. El software servirá para recopilar comentarios de los usuarios y priorizar funciones. El software será similar a un producto llamado Insighto.
 
 ## **Frontend**
+- **JavaScript** como lenguaje de programación.
 - **React** como biblioteca principal.
 - **Next.js** como framework para estructurar carpetas y manejar rutas.
 - **Tailwind CSS** para el estilado.
