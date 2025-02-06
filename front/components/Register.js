@@ -2,7 +2,7 @@ import React from 'react'
 
 const Register = () => {
   return (
-    <form className="font-[sans-serif] text-[#333] max-w-4xl mx-auto px-6 my-6">
+    <form className="font-[sans-serif] text-[#333] max-w-4xl mx-auto px-6 mt-28">
       <div className="grid sm:grid-cols-2 gap-10">
         <div className="relative flex items-center">
           <label className="text-[13px] absolute top-[-10px] left-0">First Name</label>
