@@ -1,14 +1,15 @@
 import Carousel from "@/components/Carousel";
 
+
 export default function Home() {
   return (
     <main>
       <section className="p-4 my-4">
         <h1 className="text-center text-xl font-bold">My First SaaS</h1>
       </section>
-      
+
       <section className="p-4 my-4 mx-52">
-        <Carousel/>
+        <Carousel />
       </section>
 
       <section className="p-4 my-4">

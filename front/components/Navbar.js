@@ -20,7 +20,7 @@ const Navbar = () => {
             </li>
             <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>About</Link>
             </li>
-            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="#" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Contact</Link>
+            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Contact</Link>
             </li>
           </ul>
         </div>
