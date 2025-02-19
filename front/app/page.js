@@ -1,4 +1,6 @@
 import Carousel from "@/components/Carousel";
+import Contador from "@/components/contador";
+
 
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
 
       <section className="p-4 my-4">
         <p className="text-lg">Esta es una sección del home</p>
+        <Contador/>
       </section>
 
       <section className="p-4 my-4">
