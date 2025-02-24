@@ -1,7 +1,5 @@
 import Carousel from "@/components/Carousel";
-import Contador from "@/components/contador";
-
-
+import Contador from "@/components/Contador";
 
 export default function Home() {
   return (
