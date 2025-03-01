@@ -17,7 +17,7 @@ const Navbar = () => {
               <Link href="/"><Image src={logo} alt="logo" width={36} height={36} />
               </Link>
             </li>
-            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="#" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Feature</Link>
+            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Appointment</Link>
             </li>
             <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>About</Link>
             </li>
