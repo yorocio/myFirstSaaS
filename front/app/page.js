@@ -1,27 +1,23 @@
-import Carousel from "@/components/Carousel";
-import Contador from "@/components/Contador";
 
 export default function Home() {
   return (
-    <main>
-      <section className="p-4 my-4">
-        <h1 className="text-center text-xl font-bold">My First SaaS</h1>
+    <main className="p-4 m-4">
+      <section className="my-4">
+        <h1 className="text-center text-xl font-bold">Zen Shiatsu</h1>
       </section>
 
-      <section className="p-4 my-4 mx-52">
-        <Carousel />
+      <section className="my-4 mx-52">
       </section>
 
-      <section className="p-4 my-4">
+      <section className="my-4">
         <p className="text-lg">Esta es una sección del home</p>
-        <Contador/>
       </section>
 
-      <section className="p-4 my-4">
+      <section className="my-4">
         <p className="text-lg">Esta es otra sección del home</p>
       </section>
 
-      <section className="p-4">
+      <section >
         <p className="text-lg">Esta es otra sección del home</p>
       </section>
     </main>
