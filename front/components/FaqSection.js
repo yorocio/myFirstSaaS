@@ -5,7 +5,7 @@ const FaqSection = () => {
     return (
         <div className="font-sans divide-y rounded-lg max-w-4xl mx-auto px-4">
             <div className="my-10">
-                <h2 className="text-2xl font-bold text-gray-900">Frequently Asked Questions</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Preguntas Frecuentes </h2>
             </div>
             {[
                 {

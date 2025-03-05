@@ -5,7 +5,7 @@ import logo from "../public/logo.png"
 
 const Navbar = () => {
   return (
-    <header className='flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
+    <header className='flex py-4 px-4 sm:px-10 font-[sans-serif] min-h-[70px] tracking-wide fixed top-0 left-0 right-0 z-50'>
       <div className='flex flex-wrap items-center justify-between gap-5 w-full'>
         <Link href="/" className="max-md:hidden">
           <Image src="/logo.png" alt="logo" width={60} height={60} />

@@ -1,10 +1,11 @@
+import HeroSection from "@/components/HeroSection";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="p-4 m-4">
-      <section className="my-4">
-        <h1 className="text-center text-xl font-bold">Zen Shiatsu</h1>
-      </section>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
 
       <section className="my-4 mx-52">
       </section>
