@@ -17,11 +17,15 @@ const Navbar = () => {
               <Link href="/"><Image src={logo} alt="logo" width={36} height={36} />
               </Link>
             </li>
-            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Appointment</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/services" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Servicios</Link>
             </li>
-            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>About</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Sobre Zen Shiatsu</Link>
             </li>
-            <li className='max-lg:border-b border-gray-300 max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-800 block font-semibold text-[15px]'>Contact</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Contacto</Link>
+            </li>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Blog</Link>
+            </li>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Turnos</Link>
             </li>
           </ul>
         </div>

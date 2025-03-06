@@ -1,27 +1,122 @@
-import Link from 'next/link'
-import React from 'react'
+"use client";
 
-const Footer = () => {
+import Link from 'next/link';
+import {Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+
+export default function Footer() {
   return (
-    <footer className="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow-sm md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
-      <span className="text-sm text-gray-600 sm:text-center dark:text-gray-400">© 2023 <Link href="#" className="hover:underline">My First SaaS™</Link>. All Rights Reserved.
-      </span>
-      <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-600 dark:text-gray-400 sm:mt-0">
-        <li>
-          <Link href="#" className="hover:underline me-4 md:me-6">About</Link>
-        </li>
-        <li>
-          <Link href="#" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
-        </li>
-        <li>
-          <Link href="/faqSection" className="hover:underline me-4 md:me-6">FAQ</Link>
-        </li>
-        <li>
-          <Link href="/contact" className="hover:underline">Contact</Link>
-        </li>
-      </ul>
+    <footer className="bg-gray-200 text-gray-950">
+      <div className="container mx-auto px-4 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* About */}
+          <div>
+            <div className="flex items-center space-x-2 mb-4">
+              <span className="font-semibold text-xl">Zen Shiatsu</span>
+            </div>
+            <p className="text-gray-800 mb-6">
+            Dedicado a restaurar el equilibrio y la armonía a través del antiguo arte de la terapia Zen Shiatsu, ayudándole a reconectarse con las capacidades curativas naturales de su cuerpo.
+            </p>
+            <div className="flex space-x-4">
+              <Link href="#" className="text-gray-800 hover:text-gray-500 transition-colors">
+                <Instagram className="h-5 w-5" />
+              </Link>
+              <Link href="#" className="text-gray-800 hover:text-gray-500 transition-colors">
+                <Facebook className="h-5 w-5" />
+              </Link>
+              <Link href="#" className="text-gray-800 hover:text-gray-500 transition-colors">
+                <Twitter className="h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="font-semibold text-lg mb-4">Enlaces</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="#services" className="text-gray-800 hover:text-gray-500 transition-colors">
+                  Nuestros Servicios
+                </Link>
+              </li>
+              <li>
+                <Link href="#blog" className="text-gray-800 hover:text-gray-500 transition-colors">
+                  Blog y Artículos
+                </Link>
+              </li>
+              <li>
+                <Link href="#store" className="text-gray-800 hover:text-gray-500 transition-colors">
+                  Productos Digitales
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-gray-800 hover:text-gray-500 transition-colors">
+                  Sobre Zen Shiatsu
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-gray-800 hover:text-gray-500 transition-colors">
+                  FAQ
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          {/* Contact */}
+          <div>
+            <h3 className="font-semibold text-lg mb-4">Contáctanos</h3>
+            <ul className="space-y-4">
+              <li className="flex items-start">
+                <MapPin className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-800">
+                  Calle 1, Barrio 2<br />
+                  Salta, Argentina
+                </span>
+              </li>
+              <li className="flex items-center">
+                <Phone className="h-5 w-5 mr-3 flex-shrink-0" />
+                <span className="text-gray-800">(03) 03 03 456</span>
+              </li>
+              <li className="flex items-center">
+                <Mail className="h-5 w-5 mr-3 flex-shrink-0" />
+                <span className="text-gray-800">correo@ejemplo.com</span>
+              </li>
+            </ul>
+          </div>
+          
+          {/* Newsletter */}
+          <div>
+            <h3 className="font-semibold text-lg mb-4">Suscríbete a nuestro boletín informativo</h3>
+            <p className="text-gray-800 mb-4">
+            Suscríbete para recibir consejos de bienestar, ofertas especiales y actualizaciones sobre nuevos servicios.
+            </p>
+            <div className="space-y-2">
+              <input 
+                type="email" 
+                placeholder="Your email address" 
+                className="bg-white/10 border border-gray-950 text-gray-700 placeholder:text-gray-700/50 w-full"
+              />
+              <button className="w-full hover:bg-white/90 border border-gray-800">
+                Subscribir
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        {/* <Separator className="my-8 bg-white/20" /> */}
+        
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <p className="text-gray-700/70 text-sm mt-4">
+            © {new Date().getFullYear()} Zen Shiatsu. All rights reserved.
+          </p>
+          <div className="flex space-x-6 mt-4 md:mt-0">
+            <Link href="#" className="text-gray-700 hover:text-gray-500 text-sm">
+              Políticas de Privacidad
+            </Link>
+            <Link href="#" className="text-gray-700 hover:text-gray-500 text-sm">
+              Términos y condiciones
+            </Link>
+          </div>
+        </div>
+      </div>
     </footer>
-  )
+  );
 }
-
-export default Footer
