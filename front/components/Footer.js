@@ -77,7 +77,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 flex-shrink-0" />
-                <span className="text-gray-800">correo@ejemplo.com</span>
+                <span className="text-gray-800">escueladevidazen@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -92,9 +92,9 @@ export default function Footer() {
               <input 
                 type="email" 
                 placeholder="Your email address" 
-                className="bg-white/10 border border-gray-950 text-gray-700 placeholder:text-gray-700/50 w-full"
+                className="w-full bg-transparent backdrop-blur-md border-2 border-gray-800 text-gray-900 px-6 py-1 rounded-md hover:bg-white/10 focus:outline-none focus:border-gray-600"
               />
-              <button className="w-full hover:bg-white/90 border border-gray-800">
+              <button className="w-full bg-transparent backdrop-blur-md border-2 border-gray-800 text-gray-900 px-6 py-1 rounded-md hover:bg-gray-400 transition-all duration-300">
                 Subscribir
               </button>
             </div>

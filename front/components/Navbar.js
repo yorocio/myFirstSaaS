@@ -19,6 +19,8 @@ const Navbar = () => {
             </li>
             <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/services" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Servicios</Link>
             </li>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/courses" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Cursos y Talleres</Link>
+            </li>
             <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Sobre Zen Shiatsu</Link>
             </li>
             <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Contacto</Link>
