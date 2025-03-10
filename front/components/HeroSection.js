@@ -14,11 +14,11 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')",
+          backgroundImage: "url('/zen.jpg')",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
       {/* Content */}

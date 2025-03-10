@@ -17,24 +17,24 @@ const Navbar = () => {
               <Link href="/"><Image src={logo} alt="logo" width={36} height={36} />
               </Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/services" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Servicios</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/services" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Servicios</Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Sobre Zen Shiatsu</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/about" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Sobre Zen Shiatsu</Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Contacto</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Contacto</Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Blog</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Blog</Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-900 block text-[18px]'>Turnos</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Turnos</Link>
             </li>
           </ul>
         </div>
 
         <div className='flex max-lg:ml-auto space-x-4'>
 
-          <Link href="/register" className='px-4 py-2 text-sm rounded-full font-bold text-gray-900 border-2 border-gray-700 transition-all ease-in-out duration-300 hover:bg-transparent hover:text-gray-400'>Register</Link>
+          <Link href="/register" className='px-4 py-2 text-sm rounded-full font-bold text-gray-950 border-2 border-gray-700 transition-all ease-in-out duration-300 hover:bg-transparent hover:text-gray-400'>Register</Link>
 
-          <Link href="/login" className='px-4 py-2 text-sm rounded-full font-bold text-gray-900 border-2 border-gray-700 transition-all ease-in-out duration-300 hover:bg-transparent hover:text-gray-400'>Login</Link>
+          <Link href="/login" className='px-4 py-2 text-sm rounded-full font-bold text-gray-950 border-2 border-gray-700 transition-all ease-in-out duration-300 hover:bg-transparent hover:text-gray-400'>Login</Link>
         </div>
       </div>
     </header>
