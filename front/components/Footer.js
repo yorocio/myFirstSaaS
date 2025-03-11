@@ -95,7 +95,7 @@ export default function Footer() {
                 className="w-full bg-transparent backdrop-blur-md border-2 border-gray-800 text-gray-900 px-6 py-1 rounded-md hover:bg-white/10 focus:outline-none focus:border-gray-600"
               />
               <button className="w-full bg-transparent backdrop-blur-md border-2 border-gray-800 text-gray-900 px-6 py-1 rounded-md hover:bg-gray-400 transition-all duration-300">
-                Subscribir
+                Suscribir
               </button>
             </div>
           </div>

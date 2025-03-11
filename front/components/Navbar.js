@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
             <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/contact" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Contacto</Link>
             </li>
-            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Blog</Link>
+            <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/blog" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Blog</Link>
             </li>
             <li className='max-lg:border-b max-lg:py-3 px-3'><Link href="/calendly" className='hover:text-gray-400 text-gray-950 block text-[18px]'>Turnos</Link>
             </li>

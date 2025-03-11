@@ -69,7 +69,7 @@ export default function BookSession() {
                                 <p className="text-lg">¿Listo/a para experimentar los beneficios del Zen Shiatsu?</p>
                                 <button
                                     onClick={() => setShowCalendly(true)}
-                                    className="text-gray-900 px-6 py-3 rounded-lg border border-gray-400 bg-gray-400 hover:bg-gray-600"
+                                    className="text-gray-200 px-6 py-3 rounded-lg border border-gray-800 bg-gray-800 hover:bg-gray-600"
                                 >
                                     Abrir el Calendario
                                 </button>
