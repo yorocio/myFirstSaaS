@@ -1,4 +1,4 @@
-import FaqSection from '@/components/FaqSection'
+import FaqSection from '@/components/Faq/FaqSection'
 import React from 'react'
 
 const faqSection = () => {
