@@ -1,5 +1,4 @@
 "use client";
-
 import Link from 'next/link';
 import {Instagram, Facebook, Twitter, Mail, Phone, MapPin } from 'lucide-react';
 
@@ -33,27 +32,27 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Enlaces</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#services" className="text-gray-200 hover:text-gray-400 transition-colors">
+                <Link href="/services" className="text-gray-200 hover:text-gray-400 transition-colors">
                   Nuestros Servicios
                 </Link>
               </li>
               <li>
-                <Link href="#blog" className="text-gray-200 hover:text-gray-400 transition-colors">
+                <Link href="/blog" className="text-gray-200 hover:text-gray-400 transition-colors">
                   Blog y Artículos
                 </Link>
               </li>
               <li>
-                <Link href="#store" className="text-gray-200 hover:text-gray-400 transition-colors">
+                <Link href="/" className="text-gray-200 hover:text-gray-400 transition-colors">
                   Productos Digitales
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-200 hover:text-gray-400 transition-colors">
+                <Link href="/about" className="text-gray-200 hover:text-gray-400 transition-colors">
                   Sobre Zen Shiatsu
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-200 hover:text-gray-400 transition-colors">
+                <Link href="/faqSection" className="text-gray-200 hover:text-gray-400 transition-colors">
                   FAQ
                 </Link>
               </li>

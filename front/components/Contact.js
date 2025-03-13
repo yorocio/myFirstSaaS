@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import ButtonContact from './Buttons/ButtonContact'
 
 const Contact = () => {
     return (
         <section className='mt-28 mb-10'>
-            <div className="max-w-5xl max-lg:max-w-3xl mx-auto font-[sans-serif]">
+            <div className="max-w-5xl max-lg:max-w-3xl mx-auto bg-white my-6 font-[sans-serif]">
                 <div className="text-center px-6">
                     <h2 className="text-gray-800 text-3xl font-bold">Contacto</h2>
                 </div>
@@ -41,7 +42,7 @@ const Contact = () => {
                                     <path d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z" dataoriginal="#000000"></path>
                                 </svg>
                                 <Link href="#" className="text-sm text-gray-300 ml-4">
-                                   Calle 1, Barrio 2
+                                    123 Street 256 House
                                 </Link>
                             </li>
                         </ul>
@@ -191,13 +192,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <button type="button" className="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded-lg px-4 py-3 tracking-wide text-white bg-gray-900 hover:bg-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' className="mr-2" viewBox="0 0 548.244 548.244">
-                                    <path fillRule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clipRule="evenodd" dataoriginal="#000000" />
-                                </svg>
-                                Enviar
-                            </button>
+                            <ButtonContact />
                         </form>
                     </div>
                 </div>
