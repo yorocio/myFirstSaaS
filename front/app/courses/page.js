@@ -1,4 +1,4 @@
-import CoursesAndWorkshop from '@/components/CoursesAndWorkshop'
+import CoursesAndWorkshop from '@/components/CoursesAndWorkshop/CoursesAndWorkshop'
 import React from 'react'
 
 const courses = () => {

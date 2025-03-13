@@ -1,7 +1,7 @@
 import BookSession from "@/components/BookSession";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
-import Services from "@/components/Services";
+import Services from "@/components/Services/Services";
 
 export default function Home() {
   return (
